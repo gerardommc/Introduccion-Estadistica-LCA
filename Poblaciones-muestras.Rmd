@@ -1,0 +1,38 @@
+---
+title: "Conceptos básicos de estadística"
+subtitle: "Poblaciones y muestras"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 4.5
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+---
+
+# Población
+
+### ¿Qué entienden por población?
+
+- "Población de Mérida" vs. "Población de estudio"
+
+### ¿Qué entienden por población?
+
+- *Población* - Grupo que se va a estudiar
+- *Muestra* - Individuos de la población de estudio
+- *Individuos* - Personas, animales u objetos que forman la muestra
+
+### De poblaciones a individuos
+
+```{r echo = F, fig.align='center'}
+knitr::include_graphics("Figuras-Intro/Pobl-samp-ind.png")
+```
+
+
+
+
