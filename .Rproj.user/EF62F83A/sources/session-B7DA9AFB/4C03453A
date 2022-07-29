@@ -3,7 +3,7 @@
     "path": "~/Documentos/Cosas ENES/Materias/LCA/Introduccion-Estadistica-LCA/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "2206345009",
+    "hash": "721023831",
     "contents": "",
     "dirty": false,
     "created": 1659114031737.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "20,55",
-        "scrollLine": "8"
+        "cursorPosition": "14,0",
+        "scrollLine": "7"
     },
     "folds": "",
-    "lastKnownWriteTime": 1659120775,
+    "lastKnownWriteTime": 1659122419,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1659120775033,
+    "last_content_update": 1659122419068,
     "read_only": false,
     "read_only_alternatives": []
 }

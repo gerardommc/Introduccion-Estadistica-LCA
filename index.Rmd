@@ -12,8 +12,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Procesos de puntos
-
 1.  [Encuadre](Encuadre.pdf)
 
 2.  [Introducción](Introduccion.pdf)
