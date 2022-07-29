@@ -1,0 +1,69 @@
+---
+title: "Introducción a la estadística"
+subtitle: "Encuadre"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 6
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+bibliography: Referencias.bib
+csl: chicago-author-date.csl
+---
+
+### Sobre mí
+
+- Gerardo Martín
+
+- Veterinario
+
+- MSc Biología de Conservación
+
+    - Modelación matemática de transmisión de enfermedades entre animales silvestres y domésticos
+
+- Doctorado en Salud Pública
+
+    - Modelación del riesgo de enfermedades emergentes de murciélagos
+
+### Sobre usted_s
+
+- ¿Cómo se llaman?
+- ¿De dónde vienen?
+- ¿Qué les interesa?
+- ¿En qué se imaginan trabajando?
+- ¿Han llevado cursos de estadística?
+- ¿Qué esperan del curso?
+
+### Sobre el curso
+
+- Introducción a la estadística:
+
+    - Conceptos básicos y definiciones
+    - Plantear preguntas y planear experimentos
+    - Describir datos
+    - Aprender sobre el ambiente con datos y análisis
+
+### Lo feo ... las evaluaciones
+
+- Evaluación diangóstica
+- Evaluación formativa
+
+    - Trabajos y retroalimentación
+- Exámenes
+- Asistencia
+- Participación
+
+### Las evaluaciones
+
+- Trabajos 50%
+- Examenes 25%
+- Asistencia 25%
+- Participación $\rightarrow$ extra
+
+# Preguntas?
