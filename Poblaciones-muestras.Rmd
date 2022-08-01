@@ -8,12 +8,16 @@ output:
     theme: metropolis
     highlight: pygments
     slide_level: 3
-    fig_height: 4.5
+    fig_height: 2
     fig_caption: true
     latex_engine: xelatex
     keep_tex: true
 date: '2022-06-29'
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(dev = 'pdf')
+```
 
 # Población
 
@@ -29,10 +33,73 @@ date: '2022-06-29'
 
 ### De poblaciones a individuos
 
-```{r echo = F, fig.align='center'}
-knitr::include_graphics("Figuras-Intro/Pobl-samp-ind.png")
+![](Figuras-Intro/Poblacion-indiv.png)
+
+### Importancia
+
+```{r echo=F, fig.align='center', fig.height=4, fig.width=4}
+knitr::include_graphics("Figuras-Intro/mundo.png")
 ```
 
+### Importancia
 
+- No se puede estudiar todo
 
+    - Dificultades logísticas
+    - Dificultades económicas
+- Fenómenos de relevancia regional
+- Diferentes escalas
 
+### Ejemplos
+
+- **Población**: Ciudad Caucel
+- **Muestra**: 10 familias de cada colonia
+- **Individuo**: Integrantes de la familia
+
+### Ejemplos
+
+- **Población**: Industria pecuaria de Hunucmá
+- **Muestra**: Granjas porcícolas < 1 km de cenotes
+- **Individuo**: 1 L de desecho de lagunas de oxidación
+
+### Criterios para seleccionar población, muestra e individuo
+
+- Objetivo del estudio
+
+    - ¿Qué se quiere demostrar?
+    - Pregunta científica concreta
+    - Análisis estadísticos a realizar
+    - Hipótesis que a probar
+    
+- Datos necesarios
+
+    - Mediciones de l_s individu_s
+    - Cuánt_s individu_s
+    - Características de l_s individu_s
+
+# Ejemplos
+
+### ¿Cómo afecta la ganadería la calidad del agua?
+
+![](Figuras-Intro/Cattle-water.jpg)
+
+### ¿Dónde colectarían el agua?
+
+1. Donde hay ganado
+2. Donde no hay ganado
+3. Dentro del rancho
+4. Fuera del rancho
+5. Río abajo o arriba del rancho
+
+### Propuesta
+
+1. Objetivo
+2. Hipótesis
+3. Pregunta específica
+4. Determinar qué se medirá
+5. Determinar cómo se analizará
+6. Determinar cuántos datos
+7. Determinar población
+8. Seleccionar muestra
+9. Muestrear
+10. Analizar

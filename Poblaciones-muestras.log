@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.6.17)  29 JUL 2022 14:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.6.17)  1 AUG 2022 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1490,63 +1490,88 @@ LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
 (Font)              scaled to size 3.39581pt on input line 113.
 [1
 
-] [2
-
 ]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.89621pt on input line 120.
+(Font)              scaled to size 7.89621pt on input line 116.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.64017pt on input line 120.
+(Font)              scaled to size 5.64017pt on input line 116.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-20.
+16.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.28131pt on input line 120.
+(Font)              scaled to size 11.28131pt on input line 116.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.89691pt on input line 120.
+(Font)              scaled to size 7.89691pt on input line 116.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.64066pt on input line 120.
+(Font)              scaled to size 5.64066pt on input line 116.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.27914pt on input line 120.
+(Font)              scaled to size 11.27914pt on input line 116.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.8954pt on input line 120.
+(Font)              scaled to size 7.8954pt on input line 116.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.63957pt on input line 120.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+(Font)              scaled to size 5.63957pt on input line 116.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 116
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+LaTeX Font Info:    Trying to load font information for U+msb on input line 116
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [3
+) [2
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 10.10999pt on input line 129.
-[4
+(Font)              scaled to size 10.10999pt on input line 125.
+[3
 
 ]
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 9.29602pt on input line 142.
+(Font)              scaled to size 9.29602pt on input line 138.
+[4
+
+]
+File: Figuras-Intro/Poblacion-indiv.png Graphic file (type bmp)
+<Figuras-Intro/Poblacion-indiv.png>
 [5
 
 ]
-File: Figuras-Intro/Pobl-samp-ind.png Graphic file (type bmp)
-<Figuras-Intro/Pobl-samp-ind.png>
+File: Figuras-Intro/mundo.png Graphic file (type bmp)
+<Figuras-Intro/mundo.png>
 
-Overfull \vbox (31.67014pt too high) detected at line 147
+Overfull \vbox (31.68794pt too high) detected at line 148
  []
 
 [6
+
+] [7
+
+]
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
+(Font)              scaled to size 9.22536pt on input line 181.
+[8
+
+] [9
+
+] [10
+
+] [11
+
+]
+File: Figuras-Intro/Cattle-water.jpg Graphic file (type bmp)
+<Figuras-Intro/Cattle-water.jpg>
+[12
+
+] [13
+
+] [14
 
 ]
 \tf@nav=\write5
@@ -1560,12 +1585,12 @@ Overfull \vbox (31.67014pt too high) detected at line 147
 
 (./Poblaciones-muestras.aux) ) 
 Here is how much of TeX's memory you used:
- 33094 strings out of 476191
- 696710 string characters out of 5812072
- 1109793 words of memory out of 5000000
- 53180 multiletter control sequences out of 15000+600000
- 472970 words of font info for 82 fonts, out of 8000000 for 9000
+ 33183 strings out of 476191
+ 698868 string characters out of 5812072
+ 1112139 words of memory out of 5000000
+ 53262 multiletter control sequences out of 15000+600000
+ 472978 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,171p,1821b,752s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Poblaciones-muestras.pdf (6 pages).
+Output written on Poblaciones-muestras.pdf (14 pages).
