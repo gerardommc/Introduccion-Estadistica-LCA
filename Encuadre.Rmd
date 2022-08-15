@@ -58,6 +58,30 @@ knitr::include_graphics("Figuras Encuadre/Labo.png")
     - Plantear preguntas y planear experimentos
     - Describir datos
     - Aprender sobre el ambiente con datos y análisis
+    
+### Contenidos del curso
+
+1. Introducción a la estadística
+
+2. Planteamiento y diseño de investigaciones
+
+3. Estadística descriptiva
+    
+4. Inferencia estadística
+
+### Estrategia pedagógica
+
+- Lunes
+
+    - 1a hora teoría
+
+    - 2a hora práctica
+    
+- Viernes
+
+    - 1a hora teoría
+    
+    - 2a hora retroalimentación/práctica
 
 ### Lo feo ... las evaluaciones
 

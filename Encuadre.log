@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.6.17)  29 JUL 2022 12:22
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.6.17)  15 AUG 2022 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1498,12 +1498,12 @@ LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
 File: Figuras Encuadre/Labo.png Graphic file (type bmp)
 <Figuras Encuadre/Labo.png>
 
-Overfull \hbox (663.33398pt too wide) in paragraph at lines 132--132
+Overfull \hbox (663.29568pt too wide) in paragraph at lines 132--132
  [] 
  []
 
 
-Overfull \vbox (569.35579pt too high) detected at line 132
+Overfull \vbox (569.3675pt too high) detected at line 132
  []
 
 [3
@@ -1557,6 +1557,10 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ] [10
 
+] [11
+
+] [12
+
 ]
 \tf@nav=\write5
 \openout5 = `Encuadre.nav'.
@@ -1569,12 +1573,12 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 (./Encuadre.aux) ) 
 Here is how much of TeX's memory you used:
- 33148 strings out of 476191
- 697801 string characters out of 5812072
- 1110688 words of memory out of 5000000
- 53232 multiletter control sequences out of 15000+600000
+ 33161 strings out of 476191
+ 698088 string characters out of 5812072
+ 1110798 words of memory out of 5000000
+ 53245 multiletter control sequences out of 15000+600000
  472962 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,171p,1809b,752s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Encuadre.pdf (10 pages).
+Output written on Encuadre.pdf (12 pages).
