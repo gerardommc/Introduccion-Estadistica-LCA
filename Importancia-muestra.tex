@@ -1,0 +1,281 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  11pt,
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usetheme[]{metropolis}
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\newif\ifbibliography
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Conceptos básicos de estadística},
+  pdfauthor={Gerardo Martín},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Conceptos básicos de estadística}
+\subtitle{Consideraciones en la selección de la población}
+\author{Gerardo Martín}
+\date{2022-06-29}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Generalizar}
+\protect\hypertarget{generalizar}{}
+Muestra \(\rightarrow\) Población
+
+Particular \(\rightarrow\) General
+\end{frame}
+
+\begin{frame}{Condición}
+\protect\hypertarget{condiciuxf3n}{}
+Para generalizar a partir de muestra necesitamos que:
+
+Muestra \(\approx\) Población
+\end{frame}
+
+\begin{frame}{¿Qué pasa si no se cumple?}
+\protect\hypertarget{quuxe9-pasa-si-no-se-cumple}{}
+\includegraphics{Figuras-poblacion/Sesgo.png}
+\end{frame}
+
+\begin{frame}{¿Qué pasa si no se cumple?}
+\protect\hypertarget{quuxe9-pasa-si-no-se-cumple-1}{}
+\begin{enumerate}
+\item
+  Descripciones no reflejan realidad
+\item
+  Riesgoso hacer recomendaciones basadas en evidencia sesgada
+\item
+  Manejo ineficiente
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Consecuencias políticas
+  \end{itemize}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\protect\hypertarget{ejemplo}{}
+\includegraphics{Figuras-poblacion/Sesgo-1.png}
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\protect\hypertarget{ejemplo-1}{}
+En la muestra del polígono gris
+
+\begin{itemize}
+\tightlist
+\item
+  ¿Cuál es el color más común?
+\end{itemize}
+
+En la población
+
+\begin{itemize}
+\tightlist
+\item
+  ¿Cuál es el color más común?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Soluciones}
+\protect\hypertarget{soluciones}{}
+\includegraphics{Figuras-poblacion/Sesgo-2.png}
+\end{frame}
+
+\begin{frame}{Soluciones}
+\protect\hypertarget{soluciones-1}{}
+\begin{itemize}
+\item
+  Muestra más grande
+\item
+  Muestra más aleatoria
+\item
+  Diseño de muestreo/experimental
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Estrategias para obtener datos}
+\protect\hypertarget{estrategias-para-obtener-datos}{}
+\begin{enumerate}
+\item
+  Experimentos
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Diseñar procedimiento para replicar sistema o componentes
+  \end{itemize}
+\item
+  Observaciones
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Hacer mediciones directamente en campo
+  \end{itemize}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Ejemplos}
+\protect\hypertarget{ejemplos}{}
+\begin{itemize}
+\tightlist
+\item
+  Experimentos
+\end{itemize}
+
+\href{https://www.youtube.com/watch?v=BuIYh17daSs}{Evolución del cauce
+de un río}
+\end{frame}
+
+\begin{frame}{Ejemplos}
+\protect\hypertarget{ejemplos-1}{}
+\begin{itemize}
+\tightlist
+\item
+  Observaciones
+\end{itemize}
+
+\begin{enumerate}
+\item
+  \href{https://www.sciencedirect.com/science/article/abs/pii/S0013935120314961}{Efectos
+  del \emph{Greenness} en la natalidad}
+\item
+  \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/ajim.22946?casa_token=YsxyobqagVoAAAAA:wQw6Ys7vyJwmpNFknOv29Y88asNazOdFFxWnQ-gvo87DQ9sjU1wbOuPml275U9NDWdcze3fsDCGO0Vw}{Impacto
+  del estrés por calor en el riesgo de lesiones ocupacionales}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Estrategias observacionales}
+\protect\hypertarget{estrategias-observacionales}{}
+\begin{enumerate}
+\item
+  Colectar muestras en campo
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Muestras de sedimento de río
+  \item
+    Entrevistas a actores clave
+  \end{itemize}
+\item
+  Consulta de registros gubernamentales
+\item
+  Encuestas
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Visitas a comunidades
+  \item
+    Virtuales
+  \end{itemize}
+\item
+  Ciencia ciudadana
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://naturalista.mx}{Naturalista MX}
+  \end{itemize}
+\end{enumerate}
+\end{frame}
+
+\end{document}
