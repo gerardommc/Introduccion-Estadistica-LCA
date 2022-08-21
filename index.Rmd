@@ -16,7 +16,10 @@ knitr::opts_chunk$set(echo = TRUE)
     
     - [Programa del curso](Programa-Intro-Estad.pdf)
 
-2.  [Introducción](Introduccion.pdf)
+2.  [Conceptos básicos en estadística](Introduccion.pdf)
 
     - [Poblaciones y muestras](Poblaciones-muestras.pdf)
+        - [Importancia de la selección de la muestra](Importancia-muestra.pdf)
     - [Variables y datos](Variable-dato.pdf)
+        - [Clasificaciones de las variables](Clasificación-variables. pdf)
+

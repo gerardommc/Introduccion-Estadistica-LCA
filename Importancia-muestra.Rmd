@@ -1,6 +1,6 @@
 ---
 title: "Conceptos básicos de estadística"
-subtitle: "Consideraciones en la selección de la población"
+subtitle: "Consideraciones en la selección de muestras"
 author: "Gerardo Martín"
 fontsize: 11pt
 output:

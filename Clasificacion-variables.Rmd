@@ -1,0 +1,85 @@
+---
+title: "Conceptos básicos de estadística"
+subtitle: "Clasificación de variables"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 2
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(dev = 'pdf')
+```
+
+### Por su naturaleza matemática
+
+- Continuas
+
+- Discretas
+
+- Categoricas
+
+- Ordinales
+
+### Por su papel en el estudio
+
+- Independientes
+
+- Dependientes
+
+# Variables independientes
+
+### ¿Qué son?
+
+Procesos o fuerzas externas  que afectan nuestro sistema de estudio
+
+Sistema de estudio *no las afectan*
+
+Generalmente hay más de una
+
+### Ejemplo
+
+La visión es posible gracias a la luz
+
+La visión no crea la luz
+
+### Ejemplo
+
+Temperatura afecta desarrollo de plátulas
+
+Plántulas no afectan condiciones de temperatura
+
+# Variables dependientes
+
+### ¿Qué es?
+
+Proceso principal de estudio
+
+Es afectado o generado por las variables independientes
+
+Generalmente sólo hay una
+
+### Ejemplos
+
+En un estudio de actitudes sociales a los proyectos de conservación:
+
+- **Variable dependiente**: Actitud o percepción de los proyectos
+
+- **Variable(s) independiente(s)**: Condición socioeconómica del/la entrevistadx, edad
+
+### Ejemplos
+
+En un estudio del efecto del fuego sobre germinación de semillas
+
+- **Variable dependiente**: Porcentaje de germinación
+
+- **Variable independiente**: Intensidad del fuego, temporada de ocurrencia del fuego
+
