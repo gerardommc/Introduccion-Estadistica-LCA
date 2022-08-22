@@ -45,6 +45,10 @@ Sistema de estudio *no las afectan*
 
 Generalmente hay más de una
 
+### ¿Qué son?
+
+![](Figuras-variables/Tipos-variables.png)
+
 ### Ejemplo
 
 La visión es posible gracias a la luz
@@ -53,7 +57,7 @@ La visión no crea la luz
 
 ### Ejemplo
 
-Temperatura afecta desarrollo de plátulas
+Temperatura afecta desarrollo de plántulas
 
 Plántulas no afectan condiciones de temperatura
 
@@ -83,3 +87,10 @@ En un estudio del efecto del fuego sobre germinación de semillas
 
 - **Variable independiente**: Intensidad del fuego, temporada de ocurrencia del fuego
 
+### Ejemplos
+
+En un estudio de la temperatura en microhábitats
+
+- **Variable dependiente**: Temperatura a nivel del suelo
+
+- **Variables independientes**: Temperatura del aire, radiación solar, cobertura arbórea, velocidad del viento

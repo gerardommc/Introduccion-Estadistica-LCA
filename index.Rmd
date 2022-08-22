@@ -21,5 +21,5 @@ knitr::opts_chunk$set(echo = TRUE)
     - [Poblaciones y muestras](Poblaciones-muestras.pdf)
         - [Importancia de la selección de la muestra](Importancia-muestra.pdf)
     - [Variables y datos](Variable-dato.pdf)
-        - [Clasificaciones de las variables](Clasificación-variables. pdf)
+        - [Clasificaciones de las variables](Clasificacion-variables.pdf)
 
