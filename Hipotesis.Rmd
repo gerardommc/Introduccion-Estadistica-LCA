@@ -1,0 +1,123 @@
+---
+title: "Planteamiento y diseño de la investigación"
+subtitle: "Preguntas e hipótesis"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 4.5
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(dev = 'pdf')
+```
+
+# ¿Pregunta ó hipótesis?
+
+Pregunta vs hipótesis
+
+1. La preguna que tu investigación busca responder
+
+No hay una regla sobre la naturaleza de la preguna:
+
+- ¿Cómo sucede X?
+
+- ¿Qué es más importante para Z, X ó Y?
+
+- ¿Cuándo comienza tal fenómeno?
+
+- ¿Quién es responsable de X, Y, Z?
+
+- ¿Dónde ocurre X ó Y fenómeno?
+
+- ¿Por qué observamos ABC?
+
+Características de las preguntas
+
+- Claras y fáciles de comprender
+
+- Esperdíficas
+
+- Respondibles
+
+- Relevantes para el área de estudio
+
+Hipótesis
+
+- Aseveración, sugerencia
+
+		- Relacionada con el funcionamiento del sistema de estudio
+		
+		- Respuesta posible a la pregunta de investigación
+		
+- Desarrolladas a partir de:
+
+		- Observaciones informales
+		
+		- Estudio sistemático del fenómeno
+		
+
+# Características 
+
+- Claras y fáciles de comprender
+
+- Esperdíficas
+
+- Respondibles
+
+- Relevantes para el área de estudio
+
+
+# Para qué?
+
+- Estimular el proceso de investigación
+
+- Gestionarlo
+
+		- Enfoque
+		
+		- Priorizar
+
+- Identificar los datos necesarios para responder las preguntas ó probar las hipótesis
+
+Actividad
+
+Mostrar fragmento del documental de los sapos en Australia (15 minutos)
+
+Que cada equipo formule dos preguntas de investigación y tres hipótesis por pregunta relacionadas con el fragmento del documental.
+
+Intercambiar integrantes y discutir las preguntas de investigación (¿?)
+
+	- Fue posible comprender las preguntas de tu compañerx?
+	
+	- Las hipótesis están relacionadas con las preguntas de investigación?
+	
+	- Las preguntas/hipótesis sirven para identificar los datos que se necesita colectar para responder o probarlas?
+	
+# Hipótesis estadísticas
+
+- Aseveraciones sobre los resultados posibles de una prueba estadística
+
+		- x es mayor que y?
+		
+		- x y y son iguales?
+		
+		- x, y y z son iguales?
+		
+		- x tiene un efecto sobre y?
+
+- No son respuesta a la pregunta biológica
+
+	- Análisis estadístico ayuda a responder la pregunta
+	
+	- Estadística mide la probabilidad de que fenómeno ocurra
+
+
+
