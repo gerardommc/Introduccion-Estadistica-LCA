@@ -1,0 +1,228 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  11pt,
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usetheme[]{metropolis}
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\newif\ifbibliography
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Planteamiento y diseño de la investigación},
+  pdfauthor={Gerardo Martín},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Planteamiento y diseño de la investigación}
+\subtitle{Preguntas e hipótesis}
+\author{Gerardo Martín}
+\date{2022-06-29}
+
+\begin{document}
+\frame{\titlepage}
+
+\hypertarget{preguntas}{%
+\section{Preguntas}\label{preguntas}}
+
+\begin{frame}{La pregunta de investigación}
+\protect\hypertarget{la-pregunta-de-investigaciuxf3n}{}
+\begin{enumerate}
+\item
+  Nace de la curiosidad
+\item
+  Aquello que tu investigación busca responder
+\item
+  No hay una regla sobre la naturaleza de la pregunta
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Ejemplos}
+\protect\hypertarget{ejemplos}{}
+\begin{itemize}
+\item
+  ¿Cómo sucede X?
+\item
+  ¿Qué es más importante para Z, X ó Y?
+\item
+  ¿Cuándo comienza tal fenómeno?
+\item
+  ¿Quién es responsable de X, Y, Z?
+\item
+  ¿Dónde ocurre X ó Y fenómeno?
+\item
+  ¿Por qué observamos ABC?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Características de las preguntas}
+\protect\hypertarget{caracteruxedsticas-de-las-preguntas}{}
+\begin{itemize}
+\item
+  Claras y fáciles de comprender
+\item
+  Esperdíficas
+\item
+  Respondibles
+\item
+  Relevantes para el área de estudio
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Hipótesis}
+\protect\hypertarget{hipuxf3tesis}{}
+\begin{itemize}
+\item
+  Aseveración, proposición
+
+  \begin{itemize}
+  \item
+    Relacionada con el funcionamiento del sistema de estudio
+  \item
+    Respuesta posible a la pregunta de investigación
+  \end{itemize}
+\item
+  Desarrolladas a partir de:
+
+  \begin{itemize}
+  \item
+    Observaciones informales
+  \item
+    Estudio sistemático del fenómeno
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Características de las hipótesis}
+\protect\hypertarget{caracteruxedsticas-de-las-hipuxf3tesis}{}
+\begin{itemize}
+\item
+  Claras y fáciles de comprender
+\item
+  Específicas
+\item
+  Respondibles
+\item
+  Relevantes para el área de estudio
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Para qué?}
+\protect\hypertarget{para-quuxe9}{}
+\begin{itemize}
+\item
+  Estimular el proceso de investigación
+\item
+  Gestionarlo
+
+  \begin{itemize}
+  \item
+    Enfoque
+  \item
+    Priorizar
+  \end{itemize}
+\item
+  Identificar los datos necesarios para responder las preguntas ó probar
+  las hipótesis
+\end{itemize}
+\end{frame}
+
+\hypertarget{actividad}{%
+\section{Actividad}\label{actividad}}
+
+\begin{frame}{La conquista de los sapos}
+\protect\hypertarget{la-conquista-de-los-sapos}{}
+\url{https://www.youtube.com/watch?v=P-3LevPwLz4}
+\end{frame}
+
+\begin{frame}{Preguntas}
+\protect\hypertarget{preguntas-1}{}
+\begin{itemize}
+\item
+  ¿Fue posible comprender las preguntas de tu compañerx?
+\item
+  ¿Las hipótesis están relacionadas con las preguntas de investigación?
+\item
+  ¿Las preguntas/hipótesis sirven para identificar los datos que se
+  necesita colectar para responder o probarlas?
+\end{itemize}
+\end{frame}
+
+\end{document}
