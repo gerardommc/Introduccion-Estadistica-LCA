@@ -26,4 +26,5 @@ knitr::opts_chunk$set(echo = TRUE)
 3. Planteamiento y diseño de la investigación
 
     - [Preguntas e hipótesis](Hipotesis.pdf)
+        - [Hipótesis estadísticas](Hipotesis-estadisticas-1.pdf)
     - [Objetivos y predicciones](Objetivos.pdf)
