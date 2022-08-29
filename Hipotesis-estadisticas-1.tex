@@ -1,0 +1,232 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  11pt,
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usetheme[]{metropolis}
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\newif\ifbibliography
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Planteamiento y diseño de la investigación},
+  pdfauthor={Gerardo Martín},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Planteamiento y diseño de la investigación}
+\subtitle{Hipótesis estadísticas}
+\author{Gerardo Martín}
+\date{2022-06-29}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Diferencias con hipótesis científicas}
+\protect\hypertarget{diferencias-con-hipuxf3tesis-cientuxedficas}{}
+Científicas:
+
+\begin{itemize}
+\tightlist
+\item
+  Aseveración sobre el resultado posible de un experimento
+\end{itemize}
+
+Estadísticas:
+
+\begin{itemize}
+\tightlist
+\item
+  Aseveración sobre la probabilidad de que un evento observado ocurra
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Ejemplos}
+\protect\hypertarget{ejemplos}{}
+\textbf{Experimento}: Se prueba el rendimiento por hectárea de dos tipos
+de pasto, uno nativo y uno introducido, para ganadería extensiva.
+
+Científica:
+
+\begin{itemize}
+\tightlist
+\item
+  Se espera que el pasto nativo tenga mayor rendimiento por hectárea
+  debido a que está mejor adaptado a las condiciones ambientales que el
+  pasto introducido.
+\end{itemize}
+
+Estadística:
+
+\begin{itemize}
+\tightlist
+\item
+  \(H_0\): No hay diferencia entre rendimiento de los pastos
+\item
+  \(H_1\): Hay diferencias de rendimiento
+\end{itemize}
+\end{frame}
+
+\begin{frame}{¿Cómo se prueba una hipótesis estadística?}
+\protect\hypertarget{cuxf3mo-se-prueba-una-hipuxf3tesis-estaduxedstica}{}
+\begin{enumerate}
+\item
+  Probabilidad de que evento ocurra aleatoriamente
+\item
+  Se asume probabilidad de corte:
+\end{enumerate}
+
+Cuando \(P \leq 0.05\) (la probabilidad de que ocurra aleatoriamente sea
+menor a \(0.05\)), se considera que no es aleatorio
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\protect\hypertarget{ejemplo}{}
+\begin{itemize}
+\item
+  Cuatro hermanxs se sortean diariamente con papelitos el lavado de los
+  trastes.
+\item
+  El más grande organiza la tómbola
+\item
+  Después de 3 días seguidos sin lavar trastes, los más pequeños
+  sospechan que el grande hace trampa
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\protect\hypertarget{ejemplo-1}{}
+¿Cómo sabemos si ha hecho trampa o no?
+
+R: Medimos la probabilidad de que no sea seleccionado cada día
+
+\[P_{no} = \frac{3}{4}\]
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\protect\hypertarget{ejemplo-2}{}
+Por lo tanto la probabilidad de no ser seleccionado tres días seguidos
+es:
+
+\[P_{no} \times P_{no} \times P_{no} = \frac{3}{4}^3 \approx 0.42\]
+
+¿Es aleatorio?
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\protect\hypertarget{ejemplo-3}{}
+Lxs hermanxs deciden que lo ocurrido es muy probable de observar
+aleatoriamente y que el hermano grande no ha hecho trampa.
+
+Continúan de la misma manera por otras dos semanas y e hermano grande
+sigue sin lavar los trastes, ¿cuál es la probabilidad de que ello
+ocurra?
+\end{frame}
+
+\hypertarget{caracteruxedsticas-de-he}{%
+\section{\texorpdfstring{Características de
+\emph{HE}}{Características de HE}}\label{caracteruxedsticas-de-he}}
+
+\begin{frame}{Poblaciones}
+\protect\hypertarget{poblaciones}{}
+\begin{itemize}
+\item
+  Aseveraciones probabilísticas
+\item
+  \textbf{Siempre} representan poblaciones
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Hay dos tipos}
+\protect\hypertarget{hay-dos-tipos}{}
+\begin{enumerate}
+\item
+  \(H_0\) No se cumple la condición
+\item
+  \(H_1\) Sí se cumple
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Ejercicio}
+\protect\hypertarget{ejercicio}{}
+Descarga la base de datos y sigue las instrucciones
+\end{frame}
+
+\end{document}

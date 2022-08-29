@@ -1,0 +1,103 @@
+---
+title: "Planteamiento y diseño de la investigación"
+subtitle: "Hipótesis estadísticas"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 4.5
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(dev = 'pdf')
+```
+
+### Diferencias con hipótesis científicas
+
+Científicas:
+
+- Aseveración sobre el resultado posible de un experimento
+
+Estadísticas:
+
+- Aseveración sobre la probabilidad de que un evento observado ocurra
+
+### Ejemplos
+
+**Experimento**: Se prueba el rendimiento por hectárea de dos tipos de pasto, uno nativo y uno introducido, para ganadería extensiva.
+
+Científica: 
+
+- Se espera que el pasto nativo tenga mayor rendimiento por hectárea debido a que está mejor adaptado a las condiciones ambientales que el pasto introducido.
+
+Estadística:
+
+- $H_0$: No hay diferencia entre rendimiento de los pastos
+- $H_1$: Hay diferencias de rendimiento
+
+### ¿Cómo se prueba una hipótesis estadística?
+
+1. Probabilidad de que evento ocurra aleatoriamente
+
+2. Se asume probabilidad de corte:
+
+Cuando $P \leq 0.05$ (la probabilidad de que ocurra aleatoriamente sea menor a $0.05$), se considera que no es aleatorio
+
+### Ejemplo
+
+- Cuatro hermanxs se sortean diariamente con papelitos el lavado de los trastes.
+
+- El más grande organiza la tómbola
+
+- Después de 3 días seguidos sin lavar trastes, los más pequeños sospechan que el grande hace trampa
+
+### Ejemplo
+
+¿Cómo sabemos si ha hecho trampa o no?
+
+R: Medimos la probabilidad de que no sea seleccionado cada día
+
+$$P_{no} = \frac{3}{4}$$
+
+### Ejemplo
+
+Por lo tanto la probabilidad de no ser seleccionado tres días seguidos es:
+
+$$P_{no} \times P_{no} \times P_{no} = \frac{3}{4}^3 \approx 0.42$$
+
+¿Es aleatorio?
+
+### Ejemplo
+
+Lxs hermanxs deciden que lo ocurrido es muy probable de observar aleatoriamente y que el hermano grande no ha hecho trampa.
+
+Continúan de la misma manera por otras dos semanas y e hermano grande sigue sin lavar los trastes, ¿cuál es la probabilidad de que ello ocurra?
+
+# Características de *HE*
+
+### Poblaciones
+
+- Aseveraciones probabilísticas
+
+- **Siempre** representan poblaciones
+
+### Hay dos tipos
+
+1. $H_0$ No se cumple la condición
+
+2. $H_1$ Sí se cumple
+
+### Ejercicio
+
+Descarga la base de datos y sigue las instrucciones
+
+
+
+
