@@ -1,6 +1,6 @@
 ---
 title: "Planteamiento y diseño de la investigación"
-subtitle: "Objetivos"
+subtitle: "Tipos de estudios"
 author: "Gerardo Martín"
 fontsize: 11pt
 output:
@@ -19,14 +19,8 @@ date: '2022-06-29'
 knitr::opts_chunk$set(dev = 'pdf')
 ```
 
-### ¿Qué son los objetivos?
+### Clasificación de estudios
 
-- Lo que se busca conseguir/demostrar
+- Observacionales
 
-### Objetivos generales
-
-Demostrar en el sentido más amplio
-
-### Objetivos específicos
-
-Lo que queda demostrado en el proceso de conseguir objetivo general
+- Experimentales

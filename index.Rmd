@@ -27,4 +27,5 @@ knitr::opts_chunk$set(echo = TRUE)
 
     - [Preguntas e hipótesis](Hipotesis.pdf)
         - [Hipótesis estadísticas](Hipotesis-estadisticas-1.pdf)
-    - [Objetivos y predicciones](Objetivos.pdf)
+    - [Objetivos](Objetivos.pdf)
+    - [Tipos de estudios](Tipos-estudios.pdf)
