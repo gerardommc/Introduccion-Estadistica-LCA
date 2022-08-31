@@ -24,3 +24,89 @@ knitr::opts_chunk$set(dev = 'pdf')
 - Observacionales
 
 - Experimentales
+
+# Observacionales
+
+### Características
+
+- Observación del estado natural
+
+- No hay manipulación
+
+- Necesario diseñar cuidadosamente
+
+    - Evitar muestra sesgada
+    
+### Ejemplos
+
+*Un equipo de científicos acude regularmente a sitios alrededor de la península de Yucatán para medir el efecto del cambio climático sobre la concentración de nitrógeno y fósforo en el suelo*
+
+### Ejemplos
+
+*En los inicios de la pandemia hubo un brote de COVID-19. El buque fue cuarentenado en Japón y terminado el brote un equipo de epidemiólogos trató de estimar cómo cambiaba la letalidad del virus con la edad*
+
+### Ejemplos
+
+*El borrego cimarrón es muy susceptible a la neumonía. Kezia Manlove detectó por medio de muestras de individuos que cuando el brote comienza en una población sus números comienzan a disminuir.*
+
+### Debilidades y fortalezas
+
+- Conclusiones poco confiables y generalizables
+
+- Difícil determinar causas
+
+- Más realistas
+
+# Experimentales
+
+### Características
+
+- Condiciones artificiales
+
+- Amplia manipulación
+
+- Necesario diseñar cuidadosamente
+
+    - Capturar la mayor variabilidad posible
+    
+### Ejemplos
+
+*Un equipo de agrónomos seleccionó una muestra de 200 plántulas de maíz y las dividió en tres grupos. A cada grupo de plántulas las regó con agua con una concentración diferente de cloruro de sodio para medir el efecto sobre el crecimiento*
+
+### Ejemplos
+
+*Lee Berger utilizó ranas Littoria caerulea infectadas en laboratorio con Batrachochytrium dentrobatidis para demostrar que la quitridiomicosis es la causa de la crisis global de extinción de anfibios*
+
+### Ejemplos
+
+*Un equipo de científicos ambientales utilizó muestras de diferentes tipos de suelo, creó diferentes condiciones climátológicas en cámaras aisladas donde introdujo las muestras y midió los efectos de las condiciones climatológicas sobre la concentración de nitrógeno y fósforo*
+
+# Otros tipos de estudios
+
+### Híbridos
+
+- Manipulación de condiciones en el campo
+
+    - Control menor que en laboratorio
+    
+    - Disminuye sesgos observacionales
+    
+    - Conclusiones relativamente robustas
+    
+### Factoriales
+
+- Aplica a observacionales y experimentales
+
+- Estudio del efecto de factores (categóricos generalmente) sobre objeto de estudio
+
+    - Manipulados o basados en variabilidad del mundo real
+    
+## De cohorte
+
+- Aplica a observacionales y experimentales
+
+- Seguimiento a individuos por largos períodos
+
+- Estudios de población
+
+- Comunes en ciencias médicas
