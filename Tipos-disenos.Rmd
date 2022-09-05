@@ -74,3 +74,20 @@ knitr::opts_chunk$set(dev = 'pdf')
 5. Rejilla
 
 6. Aumentados
+
+### Aleatorizado
+
+![](Figuras-disenos/Aleatorizado.png)
+
+### Bloques aleatorios
+
+![](Figuras-disenos/Bloques.png)
+
+### Cuadrado latino
+
+![](Figuras-disenos/Cuadrado-latino.png)
+
+### Split plot
+
+![](Figuras-disenos/Split-plot.png)
+
