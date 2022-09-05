@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.5.2)  5 SEP 2022 15:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.5.2)  5 SEP 2022 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1530,6 +1530,15 @@ Overfull \vbox (31.68259pt too high) detected at line 219
 [11
 
 ]
+File: Figuras-disenos/Rejilla.png Graphic file (type bmp)
+<Figuras-disenos/Rejilla.png>
+
+Overfull \vbox (31.67523pt too high) detected at line 224
+ []
+
+[12
+
+]
 \tf@nav=\write5
 \openout5 = `Tipos-disenos.nav'.
 
@@ -1541,12 +1550,12 @@ Overfull \vbox (31.68259pt too high) detected at line 219
 
 (./Tipos-disenos.aux) ) 
 Here is how much of TeX's memory you used:
- 33012 strings out of 476191
- 694043 string characters out of 5812073
- 1110318 words of memory out of 5000000
- 53133 multiletter control sequences out of 15000+600000
+ 33022 strings out of 476191
+ 694294 string characters out of 5812073
+ 1110374 words of memory out of 5000000
+ 53142 multiletter control sequences out of 15000+600000
  470127 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,171p,1814b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tipos-disenos.pdf (11 pages).
+Output written on Tipos-disenos.pdf (12 pages).

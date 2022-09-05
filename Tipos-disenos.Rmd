@@ -91,3 +91,7 @@ knitr::opts_chunk$set(dev = 'pdf')
 
 ![](Figuras-disenos/Split-plot.png)
 
+### Rejilla
+
+![](Figuras-disenos/Rejilla.png)
+
