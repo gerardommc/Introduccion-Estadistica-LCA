@@ -1,0 +1,188 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  11pt,
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usetheme[]{metropolis}
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\newif\ifbibliography
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Planteamiento y diseño de la investigación},
+  pdfauthor={Gerardo Martín},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Planteamiento y diseño de la investigación}
+\subtitle{Tipos de diseños experimentales}
+\author{Gerardo Martín}
+\date{2022-06-29}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Características de diseños experimentales}
+\protect\hypertarget{caracteruxedsticas-de-diseuxf1os-experimentales}{}
+\begin{enumerate}
+\item
+  Aleatorizados
+\item
+  Replicados
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Aleatorizados}
+\protect\hypertarget{aleatorizados}{}
+\begin{itemize}
+\item
+  Muestras seleccionadas al asar
+\item
+  Unidades experimentales asignadas al asar
+\item
+  Ubicación de unidades es aleatoria
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Réplicas}
+\protect\hypertarget{ruxe9plicas}{}
+\begin{itemize}
+\item
+  Tratamientos experimentales
+\item
+  Unidades experimentales
+\item
+  Sitios de muestredo
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Objetivo del diseño}
+\protect\hypertarget{objetivo-del-diseuxf1o}{}
+\begin{itemize}
+\item
+  Repetitividad
+
+  \begin{itemize}
+  \item
+    Que las hipótesis probadas sean predictivas a escalas comparables
+  \item
+    En otros experimentos
+  \item
+    En contextos más amplios que experimentales
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Relación entre diseño e hipótesis}
+\protect\hypertarget{relaciuxf3n-entre-diseuxf1o-e-hipuxf3tesis}{}
+\begin{itemize}
+\item
+  Diseño debe permitir probar hipótesis estadística
+\item
+  Factorial
+
+  \begin{itemize}
+  \item
+    Factor = variable independiente
+  \item
+    Variables medidas = variable dependiente
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Tipos}
+\protect\hypertarget{tipos}{}
+\begin{enumerate}
+\item
+  Completamente aleatorizado
+\item
+  Bloques aleatorizados
+\item
+  Cuadrado latino
+\item
+  Split Plot, o parcelas divididas
+\item
+  Rejilla
+\item
+  Aumentados
+\end{enumerate}
+\end{frame}
+
+\end{document}
