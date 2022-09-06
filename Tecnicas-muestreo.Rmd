@@ -1,0 +1,61 @@
+---
+title: "Planteamiento y diseño de la investigación"
+subtitle: "Técnicas de muestreo"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 4.5
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(dev = 'pdf')
+```
+
+### Tipos
+
+- Censo $\rightarrow$ Registrar todo
+
+- Muestra $\rightarrow$ Registrar sólo parte de la población
+
+### Muestreo
+
+- Simple aleatorio
+
+- Estratificado
+
+- Agregado
+
+### Simple aleatorio
+
+![](Figuras-tecnicas/Simple-aleatorio.png)
+
+### Estratificado
+
+![](Figuras-tecnicas/Estratificado.png)
+
+### C
+
+Muestras más representativas
+
+### Agregado (Clúster)
+
+![](Figuras-tecnicas/Cluster.png)
+
+### C
+
+Sesgos locales muy evidentes
+
+### Sistemático
+
+### Conveniencia
+
+
+
