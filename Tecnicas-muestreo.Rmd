@@ -19,6 +19,16 @@ date: '2022-06-29'
 knitr::opts_chunk$set(dev = 'pdf')
 ```
 
+### Técnicas vs. Diseño
+
+- Diseño: Estudios experimentales, híbridos y observacionales
+
+- Técnicas de muestreo: Híbridos y observacionales
+
+- Técnicas no son reemplazo del diseño
+
+    - Estrategias logísticas para colectar datos de la manera más robusta posible
+
 ### Tipos
 
 - Censo $\rightarrow$ Registrar todo
@@ -33,6 +43,10 @@ knitr::opts_chunk$set(dev = 'pdf')
 
 - Agregado
 
+- Sistemático
+
+- Conveniencia
+
 ### Simple aleatorio
 
 ![](Figuras-tecnicas/Simple-aleatorio.png)
@@ -41,21 +55,36 @@ knitr::opts_chunk$set(dev = 'pdf')
 
 ![](Figuras-tecnicas/Estratificado.png)
 
-### C
+### Características
 
-Muestras más representativas
+- Muestras más representativas
+
+- Ejemplos en ciencias ambientales y sociales, selección de sitios para entrevistas.
 
 ### Agregado (Clúster)
 
 ![](Figuras-tecnicas/Cluster.png)
 
-### C
+### Características
 
-Sesgos locales muy evidentes
+- En cada clúster se hace un censo
+
+- Sesgos locales muy evidentes
+
+- Ejemplos en estudios demográficos y preferencias electorales
 
 ### Sistemático
 
+![](Figuras-tecnicas/Sistematico.png)
+
 ### Conveniencia
 
+![](Figuras-tecnicas/Conveniencia.png)
 
+### Características
 
+- Es el más sencillo
+
+    - Se obtiene muestra de lo más conveniente
+
+- Sesgo muy alto
