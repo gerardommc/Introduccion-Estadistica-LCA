@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.5.2)  9 SEP 2022 12:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.5.2)  9 SEP 2022 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1491,72 +1491,68 @@ LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
 [1
 
 ]
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
+(Font)              scaled to size 10.10999pt on input line 132.
+[2
+
+]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.89621pt on input line 123.
+(Font)              scaled to size 7.89621pt on input line 142.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.64017pt on input line 123.
+(Font)              scaled to size 5.64017pt on input line 142.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-23.
+42.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.28131pt on input line 123.
+(Font)              scaled to size 11.28131pt on input line 142.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.89691pt on input line 123.
+(Font)              scaled to size 7.89691pt on input line 142.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.64066pt on input line 123.
+(Font)              scaled to size 5.64066pt on input line 142.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.27914pt on input line 123.
+(Font)              scaled to size 11.27914pt on input line 142.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.8954pt on input line 123.
+(Font)              scaled to size 7.8954pt on input line 142.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.63957pt on input line 123.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 123
+(Font)              scaled to size 5.63957pt on input line 142.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 142
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 123
+LaTeX Font Info:    Trying to load font information for U+msb on input line 142
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 10.10999pt on input line 123.
-[2
+) [3
 
-] [3
+] [4
 
 ]
 File: Figuras-tecnicas/Simple-aleatorio.png Graphic file (type bmp)
 <Figuras-tecnicas/Simple-aleatorio.png>
 
-Overfull \vbox (31.6747pt too high) detected at line 140
+Overfull \vbox (31.6747pt too high) detected at line 163
  []
 
-[4
+[5
+
+]
+File: Figuras-tecnicas/Cuitzeo.png Graphic file (type bmp)
+<Figuras-tecnicas/Cuitzeo.png>
+[6
 
 ]
 File: Figuras-tecnicas/Estratificado.png Graphic file (type bmp)
 <Figuras-tecnicas/Estratificado.png>
 
-Overfull \vbox (31.68576pt too high) detected at line 145
- []
-
-[5
-
-] [6
-
-]
-File: Figuras-tecnicas/Cluster.png Graphic file (type bmp)
-<Figuras-tecnicas/Cluster.png>
-
-Overfull \vbox (31.67744pt too high) detected at line 161
+Overfull \vbox (31.68576pt too high) detected at line 173
  []
 
 [7
@@ -1564,24 +1560,55 @@ Overfull \vbox (31.67744pt too high) detected at line 161
 ] [8
 
 ]
-File: Figuras-tecnicas/Sistematico.png Graphic file (type bmp)
-<Figuras-tecnicas/Sistematico.png>
-
-Overfull \vbox (15.79787pt too high) detected at line 178
- []
-
+File: Figuras-tecnicas/Cuitzeo.png Graphic file (type bmp)
+<Figuras-tecnicas/Cuitzeo.png>
 [9
 
 ]
-File: Figuras-tecnicas/Conveniencia.png Graphic file (type bmp)
-<Figuras-tecnicas/Conveniencia.png>
+File: Figuras-tecnicas/Cluster.png Graphic file (type bmp)
+<Figuras-tecnicas/Cluster.png>
 
-Overfull \vbox (31.68404pt too high) detected at line 183
+Overfull \vbox (31.67744pt too high) detected at line 194
  []
 
 [10
 
 ] [11
+
+]
+File: Figuras-tecnicas/Cuitzeo.png Graphic file (type bmp)
+<Figuras-tecnicas/Cuitzeo.png>
+[12
+
+]
+File: Figuras-tecnicas/Sistematico.png Graphic file (type bmp)
+<Figuras-tecnicas/Sistematico.png>
+
+Overfull \vbox (15.79787pt too high) detected at line 216
+ []
+
+[13
+
+]
+File: Figuras-tecnicas/Cuitzeo.png Graphic file (type bmp)
+<Figuras-tecnicas/Cuitzeo.png>
+[14
+
+]
+File: Figuras-tecnicas/Conveniencia.png Graphic file (type bmp)
+<Figuras-tecnicas/Conveniencia.png>
+
+Overfull \vbox (31.68404pt too high) detected at line 226
+ []
+
+[15
+
+] [16
+
+]
+File: Figuras-tecnicas/Cuitzeo.png Graphic file (type bmp)
+<Figuras-tecnicas/Cuitzeo.png>
+[17
 
 ]
 \tf@nav=\write5
@@ -1595,12 +1622,12 @@ Overfull \vbox (31.68404pt too high) detected at line 183
 
 (./Tecnicas-muestreo.aux) ) 
 Here is how much of TeX's memory you used:
- 33126 strings out of 476191
- 697299 string characters out of 5812073
- 1110181 words of memory out of 5000000
- 53209 multiletter control sequences out of 15000+600000
+ 33146 strings out of 476191
+ 697637 string characters out of 5812073
+ 1110517 words of memory out of 5000000
+ 53228 multiletter control sequences out of 15000+600000
  472962 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,171p,1818b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tecnicas-muestreo.pdf (11 pages).
+Output written on Tecnicas-muestreo.pdf (17 pages).

@@ -51,6 +51,10 @@ knitr::opts_chunk$set(dev = 'pdf')
 
 ![](Figuras-tecnicas/Simple-aleatorio.png)
 
+### Simple aleatorio
+
+![](Figuras-tecnicas/Cuitzeo.png)
+
 ### Estratificado
 
 ![](Figuras-tecnicas/Estratificado.png)
@@ -60,6 +64,10 @@ knitr::opts_chunk$set(dev = 'pdf')
 - Muestras más representativas
 
 - Ejemplos en ciencias ambientales y sociales, selección de sitios para entrevistas.
+
+### Estratificado
+
+![](Figuras-tecnicas/Cuitzeo.png)
 
 ### Agregado (Clúster)
 
@@ -73,9 +81,17 @@ knitr::opts_chunk$set(dev = 'pdf')
 
 - Ejemplos en estudios demográficos y preferencias electorales
 
+### Clúster
+
+![](Figuras-tecnicas/Cuitzeo.png)
+
 ### Sistemático
 
 ![](Figuras-tecnicas/Sistematico.png)
+
+### Sistemático
+
+![](Figuras-tecnicas/Cuitzeo.png)
 
 ### Conveniencia
 
@@ -88,3 +104,7 @@ knitr::opts_chunk$set(dev = 'pdf')
     - Se obtiene muestra de lo más conveniente
 
 - Sesgo muy alto
+
+### Conveniencia
+
+![](Figuras-tecnicas/Cuitzeo.png)
