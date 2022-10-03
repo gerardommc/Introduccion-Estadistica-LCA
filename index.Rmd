@@ -30,3 +30,11 @@ knitr::opts_chunk$set(echo = TRUE)
     - [Objetivos](Objetivos.pdf)
     - [Tipos de estudios](Tipos-estudios.pdf)
     - [Técnicas de muestreo](Tecnicas-muestreo.pdf)
+    
+4. Estadística descriptiva
+
+    - Organización de datos
+        - Tablas
+        - Gráficas
+    - [Medidas de ubicación](Medidas-ubicacion.pdf)
+    - [Medidas de dispersión](Medidas-dispersión.pdf)

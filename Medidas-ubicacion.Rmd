@@ -1,0 +1,69 @@
+---
+title: "Medidas de ubicación"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 4.5
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Tipos
+
+- Tendencia central
+
+- Tendencia no central
+
+### Tendencia central
+
+Estiman los valores observados que se encuentran cerca del centro de la distribución de los valores colectados
+
+### Tendencia central
+
+```{r echo=F, fig.height=4, fig.width=5}
+set.seed(143)
+x <- rnorm(100, mean = 161, sd = 20)
+hist(x)
+```
+
+# Tipos de medidas centrales
+
+### Promedio aritmético
+
+$$ \mu = \sum_{i = 1}^{n} x_i$$
+
+Es el valor más probable, generalmente ubicado en el centro
+
+### Mediana
+
+Valor de enmedio cuando se ordenan de menor a mayor:
+
+En:
+$$ 1, 2, 3, 4, 5, 6, 7, 8, 9$$
+La mediana es $5$.
+
+En:
+
+$$1, 2, 3, 4, 5, 6$$
+
+La mediana es $(3+4)/2 = 3.5$
+
+### Moda
+
+Es el valor que más se repite:
+
+En:
+
+$$0, 3, 0, 2, 0, 0, 1, 1, 2, 1$$
+
+La moda es $1$
