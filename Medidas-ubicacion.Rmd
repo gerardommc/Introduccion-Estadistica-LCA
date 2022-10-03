@@ -67,3 +67,42 @@ En:
 $$0, 3, 0, 2, 0, 0, 1, 1, 2, 1$$
 
 La moda es $1$
+
+### Otras medias de tendencia central
+
+- Media Geométrica
+
+$$ G = \exp \left( \sum \frac{\ln x_i}{n} \right)$$
+
+- Media Armónica
+
+$$ A = \left ( \sum \frac{x^{-1}_i}{n} \right)^{-1} $$
+
+# Ubicación no central
+
+### Cuantiles
+
+Divisiones del conjunto de datos en partes iguales al tenerlos ordenados de menor a mayor
+
+- **Cuartiles** - En cuatropartes iguales
+- **Quintiles** - En cinco partes
+- **Deciles** - Diez
+- **Percentiles** - Cien
+
+### Cuantiles
+
+Mediana
+
+- Cuartil 2
+- Decil 5
+- Percentil 50
+
+### Ejemplos
+
+```{r echo = F, eval = T}
+x <- sort(rpois(20, 10))
+x
+```
+
+
+2  4  5  5  5  7  7  7  9  9  9  9  9 10 10 12 12 12 15 18
