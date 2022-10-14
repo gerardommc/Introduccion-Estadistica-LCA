@@ -37,4 +37,4 @@ knitr::opts_chunk$set(echo = TRUE)
         - Tablas
         - Gráficas
     - [Medidas de ubicación](Medidas-ubicacion.pdf)
-    - [Medidas de dispersión](Medidas-dispersión.pdf)
+    - [Medidas de dispersión](Medidas-dispersion.pdf)
