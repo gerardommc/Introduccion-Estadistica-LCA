@@ -1,0 +1,113 @@
+---
+title: "Medidas de dispersión"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 4.5
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### ¿Qué son?
+
+- Descripción de la variabilidad de los datos:
+
+    - Cuánto se alejan del promedio
+    - Diferencia entre máximo y mínimo
+
+# ¿Cómo se llaman?
+
+### ""
+
+```{r echo = F}
+knitr::include_graphics("Figuras-dispersion/Rango.jpg")
+```
+
+### Rango
+
+Diferencia entre mínimo y máximo, ejemplo:
+
+$Temp = \{10, 15, 12, 20, 21, 10, 25, 5, 17, 7\}$
+
+El mínimo es $5$ y el máximo $25$
+
+Rango: $5, 25$
+
+### Rango intercuartil
+
+Diferencia entre $1^{er}$ y $3^{er}$ cuartil, ejemplo:
+
+$$Temp = \{5, 7, 10, 10, 12, 15, 17, 20, 21, 25\}$$
+
+$1^{er}$ cuartil: 10
+
+### Desviación estándar
+
+En la literatura estadística se le llama $\sigma$
+
+Se calcula con la fórmula:
+
+$$\sigma = \sqrt{\sum_{i = 1}^n \frac{(x_i - \bar{x})^2}{n-1}}$$
+
+Donde $\bar{x}$, es el promedio de $X$, y $n$ es el tamaño de muestra, o número de observaciones
+
+$3^{er}$ cuartil: 20
+
+Rango intercuartil: $10, 20$
+
+### Desviación estándar
+
+Se utiliza para medir la distancia promedio entre las observaciones y la media
+
+Tiene implicaciones directas sobre las mediciones de probabilidad:
+
+
+El intervalo $\bar{x} \pm \sigma$ contiene $\approx 69 \%$ de observaciones
+
+### Desviación estándar, ejemplo
+
+$$Temp = \{5, 7, 10, 10, 12, 15, 17, 20, 21, 25\}$$
+
+$$\bar{Temp} = 15$$
+
+$$\sigma = 6.36$$
+
+$15 \pm 6.36 = \{8.63, 21.36\}, 7/10= 70\% \approx 69 \%$ de observaciones están en el intervalo
+
+### Varianza
+
+Es derivada de la desviación estándar
+
+Se le llama $\sigma^2$ es la variación total de la variable de estudio
+
+### Reflexión
+
+Rango, rango intercuartil, desviación y varianza:
+
+- Representan variación en mismas unidades, p. ej.:
+
+- Si $Temp$ es medida en $°\mathrm{C}$, $\sigma_{Temp}$ está en $°\mathrm{C}$
+
+### Otras medidas de dispersión
+
+Coeficiente de variación:
+
+$$C_V = \frac{\sigma}{\bar{x}}$$
+
+Es el cociente de la desviación y media
+
+Ejemplo:
+
+$$C_{V, Temp} = \frac{6.36}{15} = 0.42$$
+
+La variación es equivalente al $42 \%$ de la media
