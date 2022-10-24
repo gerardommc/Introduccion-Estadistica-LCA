@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.6.17)  24 OCT 2022 13:31
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.6.17)  24 OCT 2022 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1578,6 +1578,14 @@ pe pdf)
 
 ] [16
 
+] [17
+
+] [18
+
+] [19
+
+] [20
+
 ]
 \tf@nav=\write5
 \openout5 = `Distribuciones.nav'.
@@ -1590,12 +1598,12 @@ pe pdf)
 
 (./Distribuciones.aux) ) 
 Here is how much of TeX's memory you used:
- 33181 strings out of 476191
- 699245 string characters out of 5812072
- 1111955 words of memory out of 5000000
- 53267 multiletter control sequences out of 15000+600000
+ 33193 strings out of 476191
+ 699338 string characters out of 5812072
+ 1112123 words of memory out of 5000000
+ 53279 multiletter control sequences out of 15000+600000
  472962 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,171p,1815b,752s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Distribuciones.pdf (16 pages).
+Output written on Distribuciones.pdf (20 pages).
