@@ -1,0 +1,130 @@
+---
+title: "Distribuciones teóricas de probabilidad"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 4.5
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### ¿Qué son?
+
+- Modelos matemáticos que describen probabilidades de observar un fenómeno
+
+    - Medidas de ubicación central
+    - Medidas de dispersión
+
+# Ejemplo
+    
+### La distribución normal
+
+\begin{equation}
+f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{ - \frac{1}{2} \left(\frac{x-\mu}{\sigma} \right)^2 }
+\end{equation}
+
+1. $x$ es una variable aleatoria contínua con valores negativos y positivos
+2. $\mu$ es la media y $\sigma$ es la desviación estándar de $x$
+3. $\pi$ es la constante universal $3.14159...$
+
+### ¿Cómo se ve?
+
+```{r echo = F, fig.height=4, fig.width=4}
+curve(dnorm(x, 0, 1), from = -3, to = 3, col = "red",
+      ylab = "Frecuencia de x")
+```
+
+### ¿Qué indican los parámetros?
+
+```{r echo=F, fig.height=4, fig.width=4}
+curve(dnorm(x, 0, 1), from = -3, to = 3, col = "red",
+      ylab = "Frecuencia de x")
+abline(v = 0, col = "red", lty = 4)
+abline(v = c(-1, 1), lty = 2)
+legend(1, 0.4, col = c("red", "black"), lty = c(4, 2), c("Media", "Desviación\n estándar"), bty = "n", cex = 0.5)
+```
+
+### Usos de la distribución normal
+
+1. Comparación de efectos de tratamientos experimentales
+2. Estimación de la fuerza de asociación entre dos fenómenos contínuos
+3. Descripción de la variabilidad de un fenómeno
+
+# Otras distribuciones
+
+### ¿Para qué otras distribuciones?
+
+1. Descripción de variables discretas
+
+    - Conteo de individuos
+    - Conteo de eventos exitosos
+    
+2. Descripción de variables contínuas positivas
+
+    - Precipitación
+    - Expectativa de vida
+    - Tiempo de espera a ocurrencia de evento
+    
+# Ejemplos de otras distribuciones
+
+### Binomial
+
+\begin{equation}
+Pr(X = k) = \left( \begin{array}{c} n \\ k \end{array} \right) p^k (1-p)^{n-k}
+\end{equation}
+
+Donde $k$ es el número de éxitos, $n$ es el número de intentos y $p$ es le probabilidad de obtener $k$
+
+### Usos
+
+Descripción de fenómenos binarios:
+
+  - Probabilidad de que animal capturado sea macho o hembra
+  - Probabilidad de obtener águila o sol
+  - Probabilidad de capturar individuo en una trampa (estudios ecológicos)
+
+### ¿Cómo se ve?
+
+```{r echo=F, fig.height=4, fig.width=4}
+x <- 1:10
+y <- dbinom(x, 10, 0.5)
+plot(x, y, type = "l", col = "red", xlab = "x", ylab = "Frecuencia de x")
+abline(v = 5, lty = 4, col = "red")
+legend(8, 0.25, lty = 4, col = "red", "p", bty = "n")
+```
+
+### Poisson
+
+En la distribución binomial se conoce el número de intentos (veces que se lanza la moneda)
+
+En la distribución poisson el número de intentos es infinito, p. ej.
+
+  - Probabilidad de observar tipo de árbol en geografía
+  - Probabilidad de observar vehículo transitar frente a escuela
+  
+### Poisson
+
+\begin{equation}
+Pr(X = k) = \lambda \frac{e^{-\lambda}}{k!}
+\end{equation}
+
+Donde $k$ es el número de veces que se observa un valor específico de $x$ y $\lambda$ es la media de $x$
+
+### Usos
+
+1. Descripción de variables de conteos
+
+    - Número de individuos por ciudad
+    - Número de células cancerosas en muestra de tejido
+    - Número de individuos infectados en una población
+    - Variación de tamaños poblacionales

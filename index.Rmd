@@ -38,3 +38,7 @@ knitr::opts_chunk$set(echo = TRUE)
         - Gráficas
     - [Medidas de ubicación](Medidas-ubicacion.pdf)
     - [Medidas de dispersión](Medidas-dispersion.pdf)
+    
+5. Bases de inferencia estadística
+
+    - [Distrobuciones teóricas de probabilidad](Distrobuciones.pdf)
