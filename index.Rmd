@@ -42,3 +42,4 @@ knitr::opts_chunk$set(echo = TRUE)
 5. Bases de inferencia estadística
 
     - [Distribuciones teóricas de probabilidad](Distribuciones.pdf)
+    - [Estimación de parámetros con intervalos de confianza](Intervalos.pdf)

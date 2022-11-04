@@ -1,0 +1,166 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  11pt,
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usetheme[]{metropolis}
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\newif\ifbibliography
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Cálculo de intervalos de confianza},
+  pdfauthor={Gerardo Martín},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Cálculo de intervalos de confianza}
+\author{Gerardo Martín}
+\date{2022-06-29}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{¿Qué son?}
+\protect\hypertarget{quuxe9-son}{}
+\begin{itemize}
+\item
+  Los intervalos de confianza son el error esperado en la estimación de
+  la media
+\item
+  Buena practica calcularlos para conocer la posible variación entre
+  muestras
+\end{itemize}
+\end{frame}
+
+\begin{frame}{¿Cómo se calculan?}
+\protect\hypertarget{cuxf3mo-se-calculan}{}
+\begin{enumerate}
+\tightlist
+\item
+  Se calcula la media \(\mu\)
+\item
+  Se calcula la desviación estándar \(\sigma\)
+\item
+  Se calcula la raíz cuadrada del tamaño de muestra \(\sqrt{n}\)
+\item
+  Se calcula el error estándar: \(\sigma/\sqrt{n}\)
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{¿Cómo se representan?}
+\protect\hypertarget{cuxf3mo-se-representan}{}
+Indican un rango esperado de error en el cáculo de la media, por lo
+tanto:
+
+\[\mathrm{IC}_{95} = \bar{x} \pm 1.96 \times \sigma /\sqrt{n}\]
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\protect\hypertarget{ejemplo}{}
+Si tenemos una variable:
+
+\[X = \{ 16.1, 15.6, 14.2, 13.3, 17.7, 14.7, 16.3, 16.0, 11.4, 14.5 \}\]
+
+Su media es:
+
+\[\bar{x} = 14.98\]
+
+Y desviación estándar:
+
+\[\sigma = 1.77\]
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\protect\hypertarget{ejemplo-1}{}
+Los intervalos de confianza al 95\% son:
+
+\[\mathrm{IC}_{95} = 14.98 \pm 1.96 \times 1.77/\sqrt{10}\]
+
+Por lo tanto:
+
+\[\mathrm{IC}_{95} = 14.98 \pm 1.1\] Por lo que en el 95\% de los casos
+que estimemo la media de la población si la muestra \(X\) es
+representativa, la media quedará en el intervalo
+
+\[\{16.1, 13.88\}\]
+\end{frame}
+
+\end{document}
