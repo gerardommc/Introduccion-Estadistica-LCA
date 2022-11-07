@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.6.17)  7 NOV 2022 13:01
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.5.2)  7 NOV 2022 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1563,7 +1563,13 @@ Overfull \vbox (31.68803pt too high) detected at line 131
 
 ] [7
 
-] [8
+]
+Overfull \vbox (52.03215pt too high) detected at line 184
+ []
+
+[8
+
+] [9
 
 ]
 \tf@nav=\write5
@@ -1577,12 +1583,12 @@ Overfull \vbox (31.68803pt too high) detected at line 131
 
 (./Intervalos-poisson.aux) ) 
 Here is how much of TeX's memory you used:
- 33130 strings out of 476191
- 698366 string characters out of 5812072
- 1111694 words of memory out of 5000000
- 53216 multiletter control sequences out of 15000+600000
+ 33132 strings out of 476191
+ 698382 string characters out of 5812073
+ 1112735 words of memory out of 5000000
+ 53218 multiletter control sequences out of 15000+600000
  472962 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,171p,1819b,752s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Intervalos-poisson.pdf (8 pages).
+Output written on Intervalos-poisson.pdf (9 pages).

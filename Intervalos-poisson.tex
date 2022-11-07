@@ -165,13 +165,31 @@ Donde:
 \end{enumerate}
 \end{frame}
 
+\begin{frame}{Ejemplo}
+\protect\hypertarget{ejemplo}{}
+Tenemos una variable que representa el número promedio de accidentes
+observados por mes en una intersección problemática:
+
+\[x = \{3, 2, 5, 1, 0, 1, 1, 3, 4, 1\}\]
+
+Utilizando la fórmula del promedio encontramos que:
+
+\[\bar{x} = 2.1\] \#\#\# Ejemplo
+
+Por lo que los intervalos de confianza son
+
+\[IC_{95} = \{ 0.5 \times \chi^2_{2 \times 2.1, 0.05/2}, 0.5 \times \chi^2_{2 \times (2.1 + 1), 1-0.05/2} \}\]
+
+\[IC_{95} = \{0.5 \times 0.06, 0.5 \times 7.58 \}= \{0.035, 3.79 \}\]
+\end{frame}
+
 \begin{frame}{Binomial}
 \protect\hypertarget{binomial-1}{}
 \begin{itemize}
+\tightlist
 \item
-  Inferior:
-\item
-  Superior:
+  Es mejor aproximarlos por simulación como lo hicimos en la clase
+  pasada con la distribución normal
 \end{itemize}
 \end{frame}
 

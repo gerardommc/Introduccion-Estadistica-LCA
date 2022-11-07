@@ -43,3 +43,5 @@ knitr::opts_chunk$set(echo = TRUE)
 
     - [Distribuciones teóricas de probabilidad](Distribuciones.pdf)
     - [Estimación de parámetros con intervalos de confianza](Intervalos.pdf)
+    
+        -[Intervalos de confianza para las distribuciones Poisson y Binomial](Intervalos-poisson.pdf)
