@@ -1,0 +1,68 @@
+---
+title: "Intervalos de confianza Poisson y Binomial"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 4.5
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Diferencias con distribución normal
+
+### Normal
+
+```{r echo=F, fig.height=4.5, fig.width=4.5}
+x <- rnorm(100)
+hist(x, main = "Normal")
+```
+
+### Poisson
+
+```{r echo=F, fig.height=4.5, fig.width=4.5}
+x1 <- rpois(100, 3)
+hist(x1, main = "Poisson")
+```
+
+### Binomial
+
+```{r echo=F, fig.height=4.5, fig.width=4.5}
+x2 <- rbinom(100, 10, 0.5)
+hist(x2, main = "Binomial")
+```
+
+### Normal
+
+La fórmula es:
+
+$$IC_{95} = \bar{x} \pm 1.96 \times \sigma/\sqrt{n}$$
+
+Como sabemos, la distribución Poisson no es simétrica, por lo que este método no funciona, y 1.96 no representa el número de desviaciones estándar que acotan el 95% de los datos.
+
+### Poisson
+
+- Inferior: $0.5 \chi^2_{2 \times n, \alpha/2}$
+
+- Superior: $0.5 \chi^2_{2 \times (n+1), 1-\alpha/2}$
+
+Donde:
+
+1. $\chi^2$ es el estadístico chi cuadrada (más tarde para el cálculo)
+2. $n$ es el número de eventos observados
+3. $\alpha$ es el nivel de significancia. Si el nivel es al 95%, $\alpha = 1-0.95 = 0.05$, si el nivel es al 99%, $\alpha = 1-0.99 = 0.01$
+
+### Binomial
+
+- Inferior:
+
+- Superior:
