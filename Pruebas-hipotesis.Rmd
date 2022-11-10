@@ -1,0 +1,119 @@
+---
+title: "Pruebas de hipótesis"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 4.5
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Recordatorio
+
+### ¿Qué es una hipótesis?
+
+- Aseveración que deber ser demostrada
+
+- Hay diferentes tipos de hipótesis, las del área de estudio y las estadísticas
+
+- Las estadísticas están relacionadas con algún experimento diseñado para demostrar el fenómeno de interés
+
+### Ejemplo
+
+- Hipótesis biológica
+
+"Los sapos *Rhinella marina* se benefician de los cuerpos de agua temporales"
+
+- Estudio diseñado para probar hipótesis biológica:
+
+"Se identifican cuerpos de agua permanentes y temporales para ser vigilados durante temporada de secas y lluvias para contar el número de renacuajos de *Rhinella marina*"
+
+- Hipótesis estadística:
+
+"El número promedio de renacuajos por cuerpo de agua será mayor en época de lluvias"
+
+### Ejemplo
+
+Por lo tanto, la hipótesis nula $H_0$ a ser rechazada es:
+
+"No hay diferencia en el número promedio de renacuajos entre temporadas"
+
+# Pruebas de hipótesis sobre la media
+
+### ¿En qué consisten?
+
+- Poner a prueba si la media de una muestra es igual a $x$ valor.
+
+- Recordemos que los parámetros varían, por lo que hay que identificar el rango de valores en el que podemos considerar que la hipótesis es verdadera
+
+### Ejemplo
+
+Hacemos una breve búsqueda bibliográfica sobre el sapo marino, y vemos que la densidad de renacuajos en el área de estudio es de $\approx 400 / m^3$.
+
+Después de nuestra primera sesión de campo queremos ver si nuestras estimaciones de densidad son similares a lo reportado.
+
+### Ejemplo
+
+La densidad de renacuajos por $m^3$ que encontramos en los 20 cuerpos de agua es de:
+
+$$X = \{ 396, 381, 392, 423, 404, 412, 406, 435, 438, 424, 416, 413, 406, 406, 413, 438, 389, 382, 411, 374 \}$$
+Entonces, hacemos un histograma, y vemos si la media reportada es similar
+
+### Ejemplo
+
+```{r echo = F, fig.width=4, fig.height=4}
+x <- c(396, 381, 392, 423, 404, 412, 406, 435, 438, 424, 416, 413, 406, 406, 413, 438, 389, 382, 411, 374)
+hist(x, main = "Densidad de sapos")
+abline(v = 400, col = "red")
+```
+### Ejemplo
+
+Visualmente, pareciera que la media reportada en literatura, es menor que la econtrada. Necesitamos, sin embargo, ver si esta apreciación visual es estadísticamente válida, por lo que trataremos de rechazar la siguiente hipótesis estadística nula:
+
+$H_0 = $ La densidad de renacuajos promedio estimada en campo es igual a la reportada en la literatura
+
+### Ejemplo
+
+Alternativas:
+
+- Calcular intervalos de confianza al 95%
+
+- Ver si valor reportado está dentro del intervalo
+
+### Ejemplo
+
+Haciendo los cálculos en R
+
+```{r}
+media <- mean(x)
+desv <- sd(x)
+n <- length(x)
+```
+
+Intervalos:
+
+```{r}
+media + 1.96 * desv / sqrt(n)
+media - 1.96 * desv / sqrt(n)
+```
+### Ejemplo
+
+Podemos ver que la media reportada está dentro del intervalo
+
+$$IC_{95} = \{399.8, 416.1\}$$
+
+Por lo tato, la probabilidad de que la media reportada sea igual a la media encontrada es
+
+$P > 0.05$
+
+Con lo cual aceptamos $H_0$
