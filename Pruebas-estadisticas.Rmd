@@ -1,0 +1,86 @@
+---
+title: "Algunos análisis comunes en estadística"
+author: "Gerardo Martín"
+fontsize: 11pt
+output:
+  beamer_presentation:
+    theme: metropolis
+    highlight: pygments
+    slide_level: 3
+    fig_height: 4.5
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
+date: '2022-06-29'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(dev = 'pdf')
+```
+
+### Objetivos de análisis
+
+**Aprender ciencias ambientales de manera objetiva**:
+
+- Planteando hipótesis ambientales
+- Planeando diseños experimentales
+- Probando hipótesis estadísticas
+
+### Identificar tipos de variables
+
+- Dependientes e independientes
+- Contínuas, discretas, categóricas
+
+### Preguntas e hipótesis
+
+¿Cómo afecta variable independiente a la variable dependiente?
+
+Variable categórica $\rightarrow$ Diferencias de promedio por tratamiento
+
+Variable contínua $\rightarrow$ Cambio de dependiente con independiente
+
+# Ejemplos
+
+### Variable ind categórica
+
+```{r echo=F, fig.height=4.5, fig.width=4.5}
+x1 <- rnorm(20, 5, 1)
+x2 <- rnorm(20, 10, 1)
+df.1 <- data.frame(Dep = c(x1, x2), Ind = c(rep("a", 20), rep("b", 20)))
+boxplot(Dep ~ Ind, df.1)
+```
+
+### Variable ind categórica
+
+¿Cómo afectan los tratamientos experimentales a la variable dependiente?
+
+Hipótesis nula a rechazar: No hay diferencias entre tratamientos
+
+Pruebas estadísticas:
+
+- 2 tratamientos: T-student
+- 3 o más tratamientos: ANOVA
+
+### Variable ind contínua
+
+```{r echo=F, fig.height=4.5, fig.width=4.5}
+x3 <- rnorm(20, 5, 1)
+x4 <- x3 + rnorm(20, 0, 0.2)
+df.1 <- data.frame(Dep =x3, Ind = x4)
+plot(Dep ~ Ind, df.1)
+```
+
+### Variable ind contínua
+
+¿Cómo afecta la variable a a la variable b?
+
+¿Aumentan los valores de b cuando aumentan los de a?
+
+¿Cuánto aumentan los valores de b cuando aumentan los de a?
+
+Pruebas estadísticas:
+
+- Identificar sentido de relación: Correlación
+- Una dependiente, una independiente: Correlación
+- Medir cambio de una variable con respecto de otra: Regresión
+- Más de dos variables independientes: Regresión

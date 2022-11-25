@@ -47,3 +47,4 @@ knitr::opts_chunk$set(echo = TRUE)
         -[Intervalos de confianza para las distribuciones Poisson y Binomial](Intervalos-poisson.pdf)
 
     - [Pruebas de hipótesis](Pruebas-hipotesis.pdf)
+    - [Pruebas estadísticas comunes](Pruebas-estadisticas.pdf)
